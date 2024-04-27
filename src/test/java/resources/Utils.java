@@ -21,7 +21,7 @@ public class Utils {
 	public static String globalBaseUrl(String key) throws IOException {
 		Properties pro = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"/Users/basitzameer/eclipse-workspace/GoogleApiFramework/src/test/java/resources/baseurl.properties");
+				"/Users/basitzameer/Tools/Git-Stuff/GoogleApiFramework/src/test/java/resources/baseurl.properties");
 		pro.load(fis);
 		return pro.getProperty(key);
 	}
